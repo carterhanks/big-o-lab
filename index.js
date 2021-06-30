@@ -135,10 +135,10 @@ function printFirstTwoNames(array) {
 
 // Starting Code:
 function squareEveryDigit(number) {
-  const digits = number.toString().split('')
-  const squaredDigits = digits.map(n => n * n)
-  const squaredNumber = squaredDigits.join('')
-  return + squaredNumber
-}
+  const digits = number.toString().split('');
+  const squaredDigits = digits.map(n => n * n);
+  const squaredNumber = squaredDigits.join('');
+  return + squaredNumber;
+};
 
 squareEveryDigit(946) // When running 946, you should see a result of 811636
