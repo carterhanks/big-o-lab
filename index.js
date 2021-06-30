@@ -69,7 +69,7 @@ for (let i = 0; i < numbers.length; i++) {
   }
 }
 // Q: What is the time complexity of the nested for loop?
-// ANSWER: O(n)
+// ANSWER: O(n^2)
 
 
 // 6) -------------------------------------------------------
@@ -77,7 +77,7 @@ let newNumbersA = numbers.filter((num) => {
   return num < 5
 })
 // Q: What is the time complexity of the filter higher-order function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 7) -------------------------------------------------------
@@ -85,7 +85,7 @@ let newNumbersB = numbers.map((num) => {
   return num * 3
 })
 // Q: What is the time complexity of the map higher-order function?
-// ANSWER: O(1)
+// ANSWER: O(n)
 
 
 // 8) -------------------------------------------------------
